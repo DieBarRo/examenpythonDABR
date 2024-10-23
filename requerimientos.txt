@@ -1,0 +1,28 @@
+La empresa Acme, requiere de un programa que le permita gestionar la nómina. El programa debe cumplir con lo siguiente:
+
+1. Registro de empleados:
+Los datos para el registro son: identificación, nombre, cargo, salario.
+
+
+
+2. Registro de inasistencia:
+El usuario podrá registrar las faltas al trabajo de un colaborador mediante el número de identificación y se deberá guardar la fecha de la falta.
+
+
+
+3. Registro de bonos extra-legales: 
+El usuario podrá asignar un bono mediante el número de identificación del colaborador con los siguientes datos: fecha, valor, concepto.
+
+
+
+4. Cálculo de la nómina: 
+La nómina debe ser mensual.
+Para calcular la nómina se debe tener en cuenta los siguiente:
+Se debe descontar del salario el 4% por concepto de salud.
+Se debe descontar del salario el 4% por concepto pensión.
+Si el colaborador gana menos de 2 salarios mínimos debe recibir un auxilio de transporte del 10%. (Use 1.000.000 como valor de salario mínimo)
+Se debe descontar el valor de un día de trabajo al colaborador por cada novedad registrada dentro del mes.
+Se debe sumar el valor de los bonos al colaborador por cada uno registrado dentro del mes.
+Al generar la nómina se debe generar un archivo por cada colaborador, siendo el nombre del archivo el número de identificación del colaborador. El archivo debe contener la siguiente información: Identificación, nombre, apellido, cargo, salario; descuento por salud, pensión y faltas al trabajo; bonos extralegales y el total a pagar.
+
+
